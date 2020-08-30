@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: green;
+  color: white;
+  text-align: center;
+  font-family: Times;
+}
+
+#textContainer {
+  width: 60%;
+  margin: 5vw auto 0;
+  text-align: left;
+  padding: 1vw;
+  background-color: #2b2d2f;
+  border-radius: 0.5vw;
+}
+
+#extraText {
+  display: none;
+}
+
+.readMoreButton {
+  width: 100%;
+  padding: 0.5vw 1vw;
+  background-color: black;
+  color: white;
+  border: solid 0.2vw red;
+  border-top: 0;
+}
+
+
+.readMoreButton:hover {
+  background-color: white;
+  color: black;
+  border-color: limeGreen;
+}
